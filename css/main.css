@@ -1,0 +1,258 @@
+/* Text Elements */
+
+h1 span.heading-text-1 {
+  color: #f5eeee;
+  font-size: 1.625rem;
+  font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+}
+
+/* Layout Elements */
+
+body > .row > [class*='small-'].column-1 {
+  min-height: 20vmax;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+  background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+  background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+  background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+  background-attachment: scroll, scroll;
+  background-position: left top, left top;
+  background-clip: border-box, border-box;
+  background-origin: padding-box, padding-box;
+  background-size: auto auto, auto auto;
+  background-repeat: no-repeat, no-repeat;
+
+  background-blend-mode: normal, normal;
+}
+
+body > .row.row-3 {
+  max-width: none;
+}
+
+body > .row.row-2 {
+  max-width: none;
+}
+
+div.responsive-picture.logo {
+  background-image: none;
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: 0 0;
+  background-repeat: no-repeat;
+
+  background-blend-mode: normal;
+}
+
+@media screen and (min-width: 22.25rem) {
+  /* Text Elements */
+
+  h1 span.heading-text-1 {
+    color: #f6f4f4;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  }
+
+  /* Layout Elements */
+
+  body > .row > [class*='small-'].column-1 {
+    min-height: 35vmax;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-attachment: scroll, scroll;
+    background-position: left top, left top;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+    background-size: auto auto, auto auto;
+    background-repeat: no-repeat, no-repeat;
+
+    background-blend-mode: normal, normal;
+  }
+
+  body > .row.row-3 {
+    max-width: none;
+  }
+
+  div.responsive-picture.logo {
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  /* Text Elements */
+
+  h1.header1 {
+    color: #fbf4f4;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  }
+
+  /* Layout Elements */
+
+  body > .row > [class*='small-'].column-1 {
+    min-height: 45vmax;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-attachment: scroll, scroll;
+    background-position: left top, left top;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+    background-size: auto auto, auto auto;
+    background-repeat: no-repeat, no-repeat;
+
+    background-blend-mode: normal, normal;
+  }
+
+  body > .row.row-3 {
+    max-width: none;
+  }
+
+  div.responsive-picture.logo {
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  /* Text Elements */
+
+  h1 span.heading-text-1 {
+    color: #f9f3f3;
+    text-transform: capitalize;
+    font-size: 3.75rem;
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  }
+
+  h1.header1 {
+    text-align: center;
+  }
+
+  /* Layout Elements */
+
+  body > .row > [class*='small-'].column-1 {
+    padding-right: .937rem;
+    min-height: 50vmax;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-attachment: scroll, scroll;
+    background-position: left top, left top;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+    background-size: auto auto, auto auto;
+    background-repeat: no-repeat, no-repeat;
+
+    background-blend-mode: normal, normal;
+  }
+
+  body > .row.row-3 {
+    max-width: none;
+  }
+
+  div.responsive-picture.logo {
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+}
+
+@media screen and (min-width: 73.1875rem) {
+  /* Text Elements */
+
+  h1.header1 {
+    color: #a1968a;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  }
+
+  h1 span.heading-text-4 {
+    text-transform: capitalize;
+  }
+
+  h1 span.heading-text-5 {
+    text-transform: capitalize;
+  }
+
+  h1 span.heading-text-9 {
+    text-transform: none;
+  }
+
+  h1 span.heading-text-1 {
+    font-size: 4.375rem;
+  }
+
+  /* Layout Elements */
+
+  body > .row > [class*='small-'].column-1 {
+    position: static;
+    display: block;
+    overflow: visible;
+    min-height: 55vmax;
+    max-height: none;
+    height: auto;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 87%), url('../images/web2.png');
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 87%), url('../images/web2.png');
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 87%), url('../images/web2.png');
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 87%), url('../images/web2.png');
+    background-attachment: scroll, scroll;
+    background-position: left top, left top;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+    background-size: auto auto, auto auto;
+    background-repeat: no-repeat, no-repeat;
+    vertical-align: baseline;
+
+    background-blend-mode: normal, normal;
+  }
+
+  body > .row.row-1 {
+    max-width: none;
+  }
+
+  body > .row.row-2 {
+    max-width: none;
+  }
+
+  body > .row.row-3 {
+    max-width: none;
+  }
+
+  div.responsive-picture.logo {
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+}
